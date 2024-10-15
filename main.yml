@@ -4,4 +4,4 @@
   vars_files:
   - "variables-{{ environment }}.yml"
   roles:
-  - {{ component }}
+  - "{{ component }}"
